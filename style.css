@@ -162,6 +162,28 @@
     }
 
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: spintop 2s linear;
+
+}
+@keyframes spintop{
+    0%{
+        left: 20px;
+
+    }
+    
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+       left: 20px;
+    }
+
+}
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
