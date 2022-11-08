@@ -139,7 +139,28 @@
     font-size: 20px;
     line-height: 70px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; 
+    
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: spin 2s linear;
+
+}
+@keyframes spin{
+    0%{
+        right: 20px;
+
+    }
+    
+    50%{
+        right: calc(100% - 60px);
+    }
+
+    100%{
+       right: 20px;
+    }
+
 }
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
