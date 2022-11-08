@@ -91,11 +91,21 @@
     border-radius: 20px;
 }
 .ex-10-icon {
-    font-size: 60px;
+    font-size: 60px; 
+    animation: rotate 2s linear infinite;
 }
+
+@keyframes rotate {
+    0%{
+        transform: rotate(1turn);
+    }
+    
+}
+
 .ex-11-icon {
     font-size: 60px;
-}
+} 
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
