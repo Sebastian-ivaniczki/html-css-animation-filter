@@ -73,7 +73,7 @@
     filter:sepia()
 } 
 .ex-8-img:hover{
-    filter: grayscale();
+    filter: grayscale() sepia();
     border-radius: 20px;
 }
 .ex-9-img {
@@ -86,7 +86,7 @@
 } 
 
 .ex-9-img:hover{
-    filter: grayscale();
+    filter: grayscale() sepia();
     transform: scale(0.8);
     border-radius: 20px;
 }
@@ -205,7 +205,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: spintop 2s linear infinite alternate-reverse;
+    animation: spintop 2s linear infinite;
 
 }
 @keyframes spintop{
@@ -232,13 +232,13 @@
 
     100%{
         top: 65px ;
-        left: 140px;
+        left: 110px;
     }
 
 } 
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: spin 2s linear infinite alternate-reverse;
+    animation: spin 2s linear infinite;
 
 } 
 @keyframes spin {
@@ -265,7 +265,7 @@
 
     100%{
         bottom: 65px ;
-        right: 140px;
+        right: 120px;
     }
 
 } 
