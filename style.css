@@ -68,6 +68,9 @@
     filter: grayscale();
 }
 
+.ex-7-img:hover{
+    filter:sepia()
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
